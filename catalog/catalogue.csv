@@ -1,0 +1,14 @@
+table,colonne,nom_complet,description,type,obligatoire,regle_qualite
+etablissements,id_etablissement,Identifiant etablissement,Identifiant unique de chaque installation classee,Entier,True,Doit etre unique et non nul
+etablissements,nom_etablissement,Nom de l'etablissement,Denomination officielle de l'installation classee,Texte,True,Ne doit pas etre vide
+etablissements,secteur_activite,Secteur d'activite,Secteur industriel de l'etablissement,Texte,True,"Valeurs autorisees : Petrochimie, Chimie, Elevage, Materiaux, Dechets, Energie, Textile, Extraction"
+etablissements,niveau_risque,Niveau de risque,Niveau de risque environnemental et technologique de l'etablissement,Texte,True,"Valeurs autorisees : Faible, Moyen, Eleve"
+etablissements,statut,Statut ICPE,Regime d'autorisation de l'installation classee,Texte,True,"Valeurs autorisees : Autorise, Declare, Enregistre"
+inspections,type_inspection,Type d'inspection,Nature de la visite d'inspection realisee par l'inspecteur,Texte,True,"Valeurs autorisees : Programmee, Inopinee"
+inspections,resultat,Resultat de l'inspection,Conclusion de l'inspecteur a l'issue de la visite,Texte,True,"Valeurs autorisees : Conforme, Non conforme"
+inspections,suites_donnees,Suites donnees,Action administrative engagee suite a l'inspection,Texte,True,"Valeurs autorisees : Aucune, Avertissement, Mise en demeure"
+infractions,gravite,Gravite de l'infraction,Niveau de gravite de l'infraction constatee,Texte,True,"Valeurs autorisees : Mineure, Moderee, Grave"
+infractions,amende_euros,Montant de l'amende,Montant de l'amende administrative prononcee en euros,Entier,True,Doit etre positif et superieur a 0
+infractions,regularisee,Infraction regularisee,Indique si l'etablissement a corrige l'infraction constatee,Texte,True,"Valeurs autorisees : Oui, Non"
+regions,budget_inspection,Budget d'inspection,Budget annuel alloue a l'inspection des ICPE dans la region en euros,Entier,True,Doit etre positif et superieur a 0
+regions,nb_inspecteurs,Nombre d'inspecteurs,Nombre d'inspecteurs de l'environnement affectes dans la region,Entier,True,Doit etre positif et superieur a 0
