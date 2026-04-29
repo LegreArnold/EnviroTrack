@@ -25,8 +25,8 @@ generation automatique de rapports mensuels PDF.
 | Excel + Power Query | Consolidation de 4 sources de donnees en une table d'analyse |
 | SQL | Base de donnees relationnelle avec 5 requetes d'analyse metier |
 | Python | Generation automatique de rapports PDF mensuels |
+| Dashboard Excel | Tableau de bord interactif avec KPIs, histogrammes et camembert |
 | Catalogue | Documentation metier de 13 colonnes en CSV et JSON |
-
 ---
 
 ## Structure du projet
@@ -89,6 +89,7 @@ sql/requetes_analyse.sql
 - 76 500 euros d'amendes prononcees identifies
 - Rapport PDF mensuel genere automatiquement
 - 13 colonnes documentees dans le catalogue
+- Dashboard Excel avec 4 KPIs, 2 graphiques interactifs
 
 ---
 
