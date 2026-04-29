@@ -16,6 +16,10 @@ environnement : consolidation des donnees d'inspection,
 analyse des non-conformites, suivi des infractions et
 generation automatique de rapports mensuels PDF.
 
+## Apercu du dashboard
+
+![Dashboard EnviroTrack](docs/dashboard_preview.png)
+
 ---
 
 ## Fonctionnalites
